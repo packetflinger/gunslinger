@@ -1341,7 +1341,7 @@ struct edict_s
 
 extern		int botdetection;
 float		move_bot_time;
-float		bot_next_msg;
+extern float    bot_next_msg;
 extern qboolean	antibot;
 
 void		MoveBot();
