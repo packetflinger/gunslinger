@@ -110,6 +110,7 @@ cvar_t	*allowed_models;
 cvar_t	*bot_talk;
 // End of Gunslinger cvars -- Stone
 
+qboolean 	antibot;
 team_t		teamdata[MAX_TEAMS];
 int			number_of_spawns;
 int			number_of_bases;
