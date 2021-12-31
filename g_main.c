@@ -110,6 +110,7 @@ cvar_t	*allowed_models;
 cvar_t	*bot_talk;
 // End of Gunslinger cvars -- Stone
 
+float           move_bot_time;
 float           bot_next_msg;
 qboolean 	antibot;
 team_t		teamdata[MAX_TEAMS];

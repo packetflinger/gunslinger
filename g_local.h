@@ -1340,7 +1340,7 @@ struct edict_s
 #define BOT_BAN 16
 
 extern		int botdetection;
-float		move_bot_time;
+extern float    move_bot_time;
 extern float    bot_next_msg;
 extern qboolean	antibot;
 
