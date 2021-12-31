@@ -277,7 +277,8 @@ void TeamplayScoreboardMessage(edict_t *ent, edict_t *killer)
 	int		index;
 	gclient_t	*cl;
 	char	tempstr[50];
-	char	tag;
+	//char	tag;
+	unsigned tag;
 
 	if (ent->flags & FL_ANTIBOT)
 		return;
@@ -393,7 +394,8 @@ void LMSFFAScoreboard (edict_t *ent, edict_t *killer)
 	int		picnum;
 	int		x, y;
 	gclient_t	*cl;
-	char	tag;
+	//char	tag;
+	unsigned tag;
 
 	// sort the clients by score
 	total = 0;
@@ -471,7 +473,8 @@ void LMSTeamplayScoreboard (edict_t *ent, edict_t *killer)
 	int		x, y;
 	gclient_t	*cl;
 	char	tempstr[50];
-	byte	tag;
+	//byte	tag;
+	unsigned tag;
 
 	total = 0;
 
